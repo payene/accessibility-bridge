@@ -1,0 +1,25 @@
+# Composer
+/vendor/
+composer.lock
+
+# Symfony
+/var/
+/config/secrets/prod/prod.decrypt.private.php
+/phpunit.xml
+.phpunit.result.cache
+
+# Environment
+.env.local
+.env.local.php
+.env.*.local
+
+# Node
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
